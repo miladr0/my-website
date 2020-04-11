@@ -1,38 +1,10 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.author-img{background-image: url("/images/about.jpg");}
+#slide1{background-image: url("/images/img_bg_1.jpg");}
+#slide2{background-image: url("/images/img_bg_2.jpg");}
+.colorlib-counters{background-image: url("/images/cover_bg_1.jpg");}
+#project1 {background-image: url("/images/img-1.jpg");}
+#project2 {background-image: url("/images/img-2.jpg");}
+#project3 {background-image: url("/images/img-3.jpg");}
+#project4 {background-image: url("/images/img-4.jpg");}
+#project5 {background-image: url("/images/img-5.jpg");}
+#project6 {background-image: url("/images/img-6.jpg");}
