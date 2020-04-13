@@ -63,7 +63,22 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
-  	<!-- jQuery -->
+    <!-- jQuery -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase.js"></script>
+    <script>
+      var app = firebase.initializeApp({
+        apiKey: "AIzaSyBeFj7zZmb3OfxyMqfBkq8Ps-ZnfR8kSc0",
+    authDomain: "bisimapprider.firebaseapp.com",
+    databaseURL: "https://bisimapprider.firebaseio.com",
+    projectId: "bisimapprider",
+    storageBucket: "bisimapprider.appspot.com",
+    messagingSenderId: "352842330289",
+    appId: "1:352842330289:web:a010106bd1670565a37290",
+    measurementId: "G-NN18BMTX5W"
+      });
+      app.analytics()
+      app.performance()
+    </script>
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>

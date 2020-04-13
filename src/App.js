@@ -1,7 +1,7 @@
 import React from 'react';
 import {css, jsx} from '@emotion/core'
 import './App.css';
-import {firebaseAnalytics, firebasePerformance} from './libs/firebase'
+// import {firebaseAnalytics, firebasePerformance} from './libs/firebase'
 
 function App() {
   return (
